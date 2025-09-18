@@ -212,7 +212,7 @@ const App = () => {
         <section id="skills" className="py-20">
           <h2 className="text-3xl font-bold mb-8">Skills</h2>
           <div className="flex flex-wrap gap-4">
-            {["Python", "HTML5", "CSS3", "JavaScript", "C", "Java", "React.js", "Tailwind CSS", "Problem Solving", "Git & GitHub", "Data Structures", "Web Development"].map(skill => (
+            {["Python", "HTML5", "CSS3", "JavaScript", "C", "Java","Problem Solving"].map(skill => (
               <span key={skill} className={`skill-badge ${darkMode ? 'bg-slate-700/50 text-indigo-400 border-slate-600' : 'bg-slate-200 text-indigo-800 border-slate-300'}`}>{skill}</span>
             ))}
           </div>
